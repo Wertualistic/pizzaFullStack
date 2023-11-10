@@ -1,9 +1,12 @@
+import React from "react";
+import Sidebar from "./components/Sidebar/Sidebar.jsx";
+
 const App = () => {
   return (
-    <div>
-      <h1>hello world</h1>
-    </div>
-  )
-}
+    <>
+      <Sidebar />
+    </>
+  );
+};
 
-export default App
+export default App;
