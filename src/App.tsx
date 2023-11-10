@@ -1,15 +1,9 @@
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
-import React from "react";
-import Sidebar from "./components/Sidebar/Sidebar.jsx";
+import Admin from "./Admin/Admin";
 
 const App = () => {
   return (
     <>
-      <Sidebar />
+    <Admin />
     </>
   );
 };
