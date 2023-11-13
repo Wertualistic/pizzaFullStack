@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color: #30333e;
+}
+
+.transitonX{
+    transition: 1s;
+    animation-duration: 3s;
+}
 @media screen and (max-width: 1600px) {
     .sidebar ul li {
         padding: 5px 10px !important;
