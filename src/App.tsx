@@ -1,19 +1,18 @@
 import Admin from "./Admin/Admin";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Home/components/Home";
-
 const App = () => {
 
   const routes = createBrowserRouter([
     {
-      path: '/',
-      element: <Admin />
+      path: "/",
+      element: <Admin />,
     },
     {
-      path: '/home',
-      element: <Home />
+      path: "/home",
+      element: <Home />,
     },
-  ])
+  ]);
 
   return <RouterProvider router={routes} />
 };
